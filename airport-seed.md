@@ -1,3 +1,18 @@
+/*
+   Global Airport Database
+   Author: Arash Partow
+   URL: www.partow.net/miscellaneous/airportdatabase/index.html
+
+   Copyright notice:
+   Free use of the Global Airport Database is permitted under the
+   guidelines and in accordance with the most current version of
+   the MIT License.
+   http://www.opensource.org/licenses/MIT
+
+   To generate a SQLite database execute the following command:
+   sqlite3 global_airports.db < gadb_sqlite_create_airports_table.sql
+*/
+
 //Airports seed. Can not import with SQL_Lite. Too many variables. Might be able to fix if/when I use Postgress
 
 // exports.seed = function(knex, Promise) {
